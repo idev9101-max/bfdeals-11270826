@@ -3,13 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Deal List</title>
-<link rel="stylesheet" href="style.css">
+<meta name="theme-color" content="#0a0e13">
+<title>Deal Ledger · Black Friday 2026</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
 <script type="module" src="main.js"></script>
 </head>
 <body>
-<header><a href="#/">Deal List</a></header>
+<button class="skip" type="button">Skip to content</button>
+<header class="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="brand-text"><b>DEAL</b><em>LEDGER</em><small>Black Friday 2026</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a id="nav-deals" href="#/">Deals</a>
+      <a id="nav-method" href="#/method">Method</a>
+    </nav>
+  </div>
+</header>
 <main id="app"></main>
-<footer>Eight Black Friday deals, each with the store, the price and when it was checked.</footer>
+<footer class="site-foot"><div class="wrap"><span>Deal Ledger · a fixed, offline snapshot</span><span>Prices checked 27 Nov 2026 08:26 UTC · verify at the store</span></div></footer>
 </body>
 </html>

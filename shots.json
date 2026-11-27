@@ -1,5 +1,6 @@
 [
-  { "file": "1-deals.jpg", "path": "#/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-deal.jpg", "path": "#/deal/dyson-v9", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-deal-phone.jpg", "path": "#/deal/airpods-pro-3", "viewport": { "width": 390, "height": 844 } }
+  { "file": "1-cover-deals.jpg", "path": "#/", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "2-filtered-cleaning.jpg", "path": "#/?category=Home%20%26%20Cleaning&min=40&sort=savings", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "3-detail-osaki.jpg", "path": "#/deal/d26", "viewport": { "width": 1280, "height": 800 } },
+  { "file": "4-mobile-deals.jpg", "path": "#/", "viewport": { "width": 390, "height": 844 } }
 ]
